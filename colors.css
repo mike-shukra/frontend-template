@@ -1,0 +1,29 @@
+:root {
+    /* main */
+    --color__dark: #444444;
+    --color__white: #ffffff;
+    /* fill */
+    --color__fill-1: rgba(255, 255, 255, 0.3);
+    --color__fill-2: #2C82D2;
+    --color__fill-3: #F3F6F9;
+    --color__fill-1-h: rgba(44, 130, 210, 0.3);
+    --color__fill-2-h: #2C82D2;
+    --color__fill-3-h: #F3F6F9;
+    --color__fill-1-a: rgba(44, 130, 210, 0.3);
+    --color__fill-2-a: #2C82D2;
+    --color__fill-3-a: #F3F6F9;
+    /* border */
+    --color__border: #ffffff;
+    --color__border-h: #2C82D2;
+    --color__border-2: #D3E7F9;
+    /* text */
+    --color__text-1: #355676;
+    --color__text-2: #4C6F8F;
+    --color__text-3: #809CB7;
+    --color__text-4: #2C82D2;
+    /* gray */
+    --color__gray-1: #f2f2f2;
+    --color__gray-2: #FAFAFC;
+    --color__gray-3: #DEDEDE;
+    --color__gray-4: #777777;
+}

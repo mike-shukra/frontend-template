@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Dogs</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Сайт на реконструкции" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta property="og:title" content="Тайтл по умолчанию" />
+    <meta property="og:description" content="Дескрипшн по умолчанию" />
+    <meta property="og:type" content="Вэб-сайт" />
+    <meta property="og:url" content="http://dogs.local/" />
+    <meta property="og:image" content="/img/og_meta_400x400.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="inputs.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link rel="stylesheet" type="text/css" href="flex.css">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <link rel="stylesheet" type="text/css" href="colors.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="">
+        <div class="first-slide">
+            <div class="center-wrap">
+                <div class="first-slide__wrap flex --just-center --align-end">
+                    <div class="first-slide__box flex --just-space --align-start">
+                        <div class="first-slide__left-box flex --just-center --align-end">
+                            <h1 class="m-0 p-0">Какой-то там <br>заголовок</h1>
+                        </div>
+                        <div class="first-slide__right-box flex --just-end --align-end">
+                            <a href="#reg" data-popup="#reg" data-popup-title="Регистрация" data-popup-value="" class="btn --fill-1 --xl center__bottom_btn"><span>Жать
+                                    сюда</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+        </div>
+    </main>
+    <div class="popup" id="reg">
+        <div class="popup__wrap">
+            <div class="popup__content --feedback">
+                <div class="popup__close js-popup__close"></div>
+                <h3>Регистрация</h3>
+                <!-- <h3><b class="js-title--text">Регистрация</b></h3> -->
+                <h5 class="mt-0"><b class="js-value--text"></b></h5>
+                <input type="hidden" name="title" class="js-title--val">
+                <input type="hidden" name="value" class="js-value--val">
+                <input type="hidden" name="utm" class="js-utm">
+                <div class="order__form">
+                    <form action="#" method="get" name="form-1">
+                        <div class="">
+                            <div class="input__wrap">
+                                <div class="input__title">Введите имя</div>
+                                <div class="input__error">error</div>
+                                <input name="name" class="big-input__input" type="text" placeholder="Акакий">
+                            </div>
+                            <div class="input__wrap">
+                                <div class="input__title">Введите e-mail</div>
+                                <div class="input__error">error</div>
+                                <input name="email" class="big-input__input" type="text" placeholder="test@test.ru">
+                            </div>
+                            <div class="input__wrap">
+                                <div class="input__title">Введите телефон</div>
+                                <div class="input__error">error</div>
+                                <input name="tell" class="big-input__input" type="text" placeholder="+7 909 009 09 09">
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <button type="send" class="order__btn btn --fill-2 feedback btn-success --m"><span>Зарегистрироваться</span></button>
+                        </div>
+                        <div class="flex">
+                            <button type="send" class="order__btn btn --no-fill feedback btn-success --m"><span>Войти</span></button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="popup__shade js-popup__close"></div>
+        </div>
+    </div>
+    <div class="scroll__top --js animated fadeInUp">
+        <div></div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
