@@ -116,17 +116,12 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    html,
-    body {
-        font-size: 8px;
+    h1 {
+        font-size: 5rem;
     }
 }
 
 @media screen and (max-width:640px) {
-    html,
-    body {
-        font-size: 7px;
-    }
     br {
         display: none;
     }

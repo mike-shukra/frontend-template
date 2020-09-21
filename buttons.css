@@ -175,7 +175,7 @@
 @media screen and (max-width: 640px) {
     .btn.--xl {
         height: 6rem;
-        padding: 0px 2rem;
+        padding: 0px 0rem;
         font-size: 2rem;
     }
     .btn {
